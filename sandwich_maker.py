@@ -13,7 +13,7 @@ class SandwichMaker:
         return True
 
     ## will remove the ingredients from the resources dictionary
-    def make_sandwich(self, sandwich_size, order_ingredients):
+    def make_sandwich(self, order_ingredients):
         """Deduct the required ingredients from the resources.
             Hint: no output"""
         for ingredient, amount_needed in order_ingredients.items():
